@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/*-------- navbar styling ----------*/
+.nav-item a{
+    padding-left: 30px!important;
+    
+
+}
+.nav-item a:hover{
+    color: aquamarine!important;
+}
+/* .drop:hover{
+    color: blue!important; }*/
+
+/* NAVBAR ENDS */
+
+/* HOME PAGE STARTS */
+.bgimg{
+    background-image: url('../pj1/bg1.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 115%;
+}
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.headerset h2{
+    font-size: 42px;
+    color: #eef201;
+    text-shadow:1px 1px 3px black;
+}
+.headerset h1{
+    font-size: 82px;
+    font-weight: bold;
+    color: #ec9c24;
+    text-shadow:1px 1px 3px black;
+
+}
+.btn{
+    border-radius: 10px!important;
+    color: black!important;
+    font-weight: bold;
+
+}
+
+/* HOME PAGE ENDS */
+
+/* -------our services starts------- */
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 100vh;
+}
+.rowsetting{
+    margin: 80px 0px!important;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-stretch: bold;
+
+}
+.service-box:hover{
+    box-shadow: 2px 2px 20px black;
+
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px!important;
+}
+.fa-shopping-cart,
+.fa-lock
+{
+    margin-top: 24px;
+}
+.fa-desktop{
+    margin-top: 29px;
+}
+.rowsetting p{
+    color:rgb(100, 90, 90)!important;
+    padding: 10px!important;
+}
+.rowsetting h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+
+/* -------our services ends------- */
+
+
+/* -------portfolio starts------- */
+.portfolio{
+    height: 1200px;
+    width: 100%;
+    padding: 100px 0px 50px;
+
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.card{
+    margin-top: 40px;
+}
+.card-img-top{
+    height: 212px!important;
+    width: 286px!important;
+}
+
+
+
+/* -------portfolio ends------- */
+
+
+/* ourteam starts */
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.teamsetting{
+    margin-top: 70px!important;
+}
+.person{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.person:hover{
+    box-shadow: 2px 2px 20px black;
+}
+/* ourteam ends */
+
+/* footerstarts */
+footer{
+    height: 50px;
+    background-color: grey;
+}
+.footer h6{
+    line-height: 42.5px;
+}
+
+/* footerends */
